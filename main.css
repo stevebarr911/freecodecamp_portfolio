@@ -1,0 +1,181 @@
+/* Needs to be added to index.html 
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css */
+
+/*header */
+
+header {
+  padding-top: 30px;
+	min-height: 100px;
+  display: block;
+}
+
+
+#steve-barr {
+  float: left;
+  margin: 0;
+  display: inline;
+}
+
+header nav {
+  float: right;
+}
+
+header li {
+  float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+  color: orange;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: #a6a6a6;
+}
+
+
+/* Sticky Header */
+
+.header {
+  background: #555;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  color: white;
+}
+
+
+
+/* Projects */
+
+#projects{
+  display: block; 
+  margin-top: 10px;
+}
+
+.projects-container {
+  display: block;
+  text-align: center; 
+  
+}
+
+#project-header {
+  width: 100%;
+  margin-bottom: 15px;  
+  
+}
+
+#project-1 img {
+  max-width: 50%;
+  margin: 5px; 
+}
+
+#project-1 img:hover {
+  opacity: .3;
+}
+
+
+#project-2 img {
+  max-width: 50%; 
+  height: auto;
+  margin: 5px;
+}
+
+#project-2 img:hover {
+  opacity: .3;
+}
+
+#project-3 img {
+  max-width: 50%;
+  margin: 5px;
+}
+
+#project-3 img:hover {
+  opacity: .3;
+}
+
+/* Footer */ 
+
+#footer {
+  margin-top: 20px; 
+}
+
+#footer h4 {
+  float: left;
+  diplay: inline; 
+  padding: 5px;
+  margin-left: 100px; 
+}
+
+#footer ul {
+  float: right;
+  margin-right: 50px;
+}
+
+#footer ul li {
+  float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+  
+}
+
+/*
+#phone-email {
+  margin: 0;
+}
+
+/*social media buttons
+
+#social {
+  float: right;
+  margin-bottom: 10px;
+}
+
+#social li {
+  float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+*/
+
+/* use this to create responsive layout for anything smaller than medium screen. Create Layout that adjusts content to center and stack on the page */
+
+@media (max-width: 768px) {
+
+header #steve-barr,
+header nav,
+section,
+footer #phone-email,
+  footer #social {
+  
+    float: none;
+		text-align: center;
+		width: 100%; 
+    display: block;
+  
+}
+  
+  #footer {
+    text-align: center;
+  }
+  
+  #footer h4 {
+    text-align: center;
+    width: auto;
+  } 
+  
+  #footer ul {
+    
+    margin: 0;
+    display: inline; 
+  
+  }
+  
+  #footer li {
+    display: inline; 
+    margin: auto; 
+    float: left; 
+  }
